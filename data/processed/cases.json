@@ -1,0 +1,208 @@
+[
+  {
+    "id": "867e890e",
+    "created_at": "2026-11-27T14:04:09.967965+00:00",
+    "application": {
+      "applicant_name": "Test A",
+      "age": 32,
+      "monthly_income": 100000.0,
+      "loan_amount": 300000.0,
+      "loan_term_months": 36,
+      "credit_score": 780,
+      "existing_monthly_debt": 5000.0,
+      "employment_years": 5.0
+    },
+    "underwriter": {
+      "decision": "approve",
+      "risk_score": 0.175,
+      "reasons": [
+        "Credit score 780",
+        "Debt-to-income after this loan: 15%",
+        "Employment: 5.0 years"
+      ]
+    },
+    "verifier": {
+      "agrees": true,
+      "objections": []
+    },
+    "final": "approved"
+  },
+  {
+    "id": "7e024c96",
+    "created_at": "2026-11-27T14:11:32.336475+00:00",
+    "application": {
+      "applicant_name": "Test A",
+      "age": 32,
+      "monthly_income": 100000.0,
+      "loan_amount": 300000.0,
+      "loan_term_months": 36,
+      "credit_score": 780,
+      "existing_monthly_debt": 5000.0,
+      "employment_years": 5.0
+    },
+    "underwriter": {
+      "decision": "approve",
+      "risk_score": 0.175,
+      "reasons": [
+        "Credit score 780",
+        "Debt-to-income after this loan: 15%",
+        "Employment: 5.0 years"
+      ]
+    },
+    "verifier": {
+      "agrees": true,
+      "objections": []
+    },
+    "final": "approved"
+  },
+  {
+    "id": "dd9ba332",
+    "created_at": "2026-11-27T14:14:40.850344+00:00",
+    "application": {
+      "applicant_name": "Test B",
+      "age": 28,
+      "monthly_income": 40000.0,
+      "loan_amount": 500000.0,
+      "loan_term_months": 36,
+      "credit_score": 640,
+      "existing_monthly_debt": 8000.0,
+      "employment_years": 0.5
+    },
+    "underwriter": {
+      "decision": "decline",
+      "risk_score": 0.524,
+      "reasons": [
+        "Credit score 640",
+        "Debt-to-income after this loan: 62%",
+        "Employment: 0.5 years",
+        "Debt-to-income above 50%",
+        "Overall risk score above 0.4"
+      ]
+    },
+    "verifier": {
+      "agrees": true,
+      "objections": []
+    },
+    "final": "declined"
+  },
+  {
+    "id": "7a21b818",
+    "created_at": "2026-11-27T14:14:43.935442+00:00",
+    "application": {
+      "applicant_name": "Test B",
+      "age": 28,
+      "monthly_income": 40000.0,
+      "loan_amount": 500000.0,
+      "loan_term_months": 36,
+      "credit_score": 640,
+      "existing_monthly_debt": 8000.0,
+      "employment_years": 0.5
+    },
+    "underwriter": {
+      "decision": "decline",
+      "risk_score": 0.524,
+      "reasons": [
+        "Credit score 640",
+        "Debt-to-income after this loan: 62%",
+        "Employment: 0.5 years",
+        "Debt-to-income above 50%",
+        "Overall risk score above 0.4"
+      ]
+    },
+    "verifier": {
+      "agrees": true,
+      "objections": []
+    },
+    "final": "declined"
+  },
+  {
+    "id": "7fcdac23",
+    "created_at": "2026-11-27T14:15:01.967039+00:00",
+    "application": {
+      "applicant_name": "Test B",
+      "age": 28,
+      "monthly_income": 40000.0,
+      "loan_amount": 500000.0,
+      "loan_term_months": 36,
+      "credit_score": 640,
+      "existing_monthly_debt": 8000.0,
+      "employment_years": 0.5
+    },
+    "underwriter": {
+      "decision": "decline",
+      "risk_score": 0.524,
+      "reasons": [
+        "Credit score 640",
+        "Debt-to-income after this loan: 62%",
+        "Employment: 0.5 years",
+        "Debt-to-income above 50%",
+        "Overall risk score above 0.4"
+      ]
+    },
+    "verifier": {
+      "agrees": true,
+      "objections": []
+    },
+    "final": "declined"
+  },
+  {
+    "id": "c3a73929",
+    "created_at": "2026-11-27T14:16:18.544389+00:00",
+    "application": {
+      "applicant_name": "Test C",
+      "age": 30,
+      "monthly_income": 100000.0,
+      "loan_amount": 300000.0,
+      "loan_term_months": 36,
+      "credit_score": 700,
+      "existing_monthly_debt": 5000.0,
+      "employment_years": 1.5
+    },
+    "underwriter": {
+      "decision": "approve",
+      "risk_score": 0.241,
+      "reasons": [
+        "Credit score 700",
+        "Debt-to-income after this loan: 15%",
+        "Employment: 1.5 years"
+      ]
+    },
+    "verifier": {
+      "agrees": false,
+      "objections": [
+        "Approved with under 2 years of employment history"
+      ]
+    },
+    "final": "needs_review"
+  },
+  {
+    "id": "864e4910",
+    "created_at": "2026-11-27T14:16:20.606057+00:00",
+    "application": {
+      "applicant_name": "Test C",
+      "age": 30,
+      "monthly_income": 100000.0,
+      "loan_amount": 300000.0,
+      "loan_term_months": 36,
+      "credit_score": 700,
+      "existing_monthly_debt": 5000.0,
+      "employment_years": 1.5
+    },
+    "underwriter": {
+      "decision": "approve",
+      "risk_score": 0.241,
+      "reasons": [
+        "Credit score 700",
+        "Debt-to-income after this loan: 15%",
+        "Employment: 1.5 years"
+      ]
+    },
+    "verifier": {
+      "agrees": false,
+      "objections": [
+        "Approved with under 2 years of employment history"
+      ]
+    },
+    "final": "needs_review"
+  }
+]
